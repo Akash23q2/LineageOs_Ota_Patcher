@@ -6,30 +6,53 @@ This script, created by @Akash23q2, is designed to enable OTA (Over-The-Air) upd
 1. Install Termux from the Google Play Store.
 2. Open Termux and run the following commands to set up the necessary tools:
    ```bash
-   apt update
-   apt upgrade
-   apt install zip git
-   tsu
-   exit
+   apt update -y
+   apt upgrade -y
+   apt install zip -y
+   apt install git -y
    ```
 
 ## How to Use
 1. Clone the script repository using `git`:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Akash23q2/LineageOs_Ota_Patcher ota-patcher
    ```
-
+q
 2. Navigate to the script's directory:
    ```bash
-   cd your-repo
+   cd ota-patcher
    ```
 
-3. Run the script using `su` and `bash`. Replace `(name.sh)` with the actual script name, for example, `enable-ota-root.sh`:
+3. Run the script using `su`.
    ```bash
    su
-   bash enable-ota-root.sh
+   chmod +x enable-ota-root.sh
+   ./enable-ota-root.sh
+
    ```
 
 The script will guide you through the process of enabling OTA updates for your LineageOS ROM while preserving root access. It will move the ROM to a backup folder, patch the boot image, and create a flashable ZIP file. Once the script finishes successfully, you can update your ROM without losing root privileges.
+#
+# The script will do the following:
+> 
+
+
+* Find the LineageOS ROM in your root folder.
+* Move the ROM to a backup folder in your internal storage.
+* Make a backup of the original boot.img file.
+* Create a temporary folder and move the ROM to it.
+* Unzip the ROM and remove the boot.img file.
+* Patch the boot.img file using Magisk.
+* Move the patched boot.img file back to the temporary folder.
+* Zip the contents of the temporary folder.
+* Move the patched ROM back to its original location.
+* Remove the temporary folder.
+
+# **Note:**
+
+* This script only works for LineageOS ROMs.
+* You need to have Magisk installed in order to use this script.
+
+I hope this is helpful!
 
 Enjoy your updated LineageOS with root access enabled! Best wishes! 😉
