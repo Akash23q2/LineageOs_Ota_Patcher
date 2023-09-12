@@ -1,6 +1,6 @@
 # Enable OTA Root Script (enable-ota-root.sh)
 
-This script, created by @Akash23q2, is designed to enable OTA (Over-The-Air) updates for LineageOS while retaining root access. It allows users to patch the boot image and create a flashable ZIP file, making the update process seamless. To use this script, follow the instructions below.
+This script, by me @Akash23q2 ;p, is designed to enable OTA (Over-The-Air) updates for LineageOS while retaining root access. It allows users to patch the boot image and create a flashable ZIP file, making the update process seamless. To use this script, follow the instructions below.
 
 ## Prerequisites
 1. Install Termux from the Google Play Store.
