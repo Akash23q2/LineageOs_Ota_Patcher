@@ -32,21 +32,7 @@ This script, by me @Akash23q2 ;p, is designed to enable OTA (Over-The-Air) updat
    ```
 
 The script will guide you through the process of enabling OTA updates for your LineageOS ROM while preserving root access. It will move the ROM to a backup folder, patch the boot image, and create a flashable ZIP file. Once the script finishes successfully, you can update your ROM without losing root privileges.
-#
-# The script will do the following:
-> 
-
-
-* Find the LineageOS ROM in your root folder.
-* Move the ROM to a backup folder in your internal storage.
-* Make a backup of the original boot.img file.
-* Create a temporary folder and move the ROM to it.
-* Unzip the ROM and remove the boot.img file.
-* Patch the boot.img file using Magisk.
-* Move the patched boot.img file back to the temporary folder.
-* Zip the contents of the temporary folder.
-* Move the patched ROM back to its original location.
-* Remove the temporary folder.
+# 
 
 # **Note:**
 
