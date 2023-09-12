@@ -17,7 +17,7 @@ This script, by me @Akash23q2 ;p, is designed to enable OTA (Over-The-Air) updat
    ```bash
    git clone https://github.com/Akash23q2/LineageOs_Ota_Patcher ota-patcher
    ```
-q
+   
 2. Navigate to the script's directory:
    ```bash
    cd ota-patcher
