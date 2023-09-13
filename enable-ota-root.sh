@@ -5,7 +5,7 @@ echo -e "#by @Akash23q2\n"
 sleep 1.5s
 backup="/sdcard/Rom_Backup/"
 echo -e "\nLooking For LineageRom Inside Root Folder\n"
-cd ; path=$(find / -name "*lineage*.zip")
+cd ; path=$(find /data/ -name "*lineage*.zip")
 if [ $path -ne " " ];then
  echo "file found at $path"
 else
