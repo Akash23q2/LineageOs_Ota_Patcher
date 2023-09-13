@@ -1,4 +1,4 @@
-# Enable OTA Root Script (No Pc Needed 💻)
+# Enable OTA Root Script (No 💻 Needed)
 
 This script, by me @Akash23q2 ;p, is designed to enable OTA (Over-The-Air) updates for LineageOS while retaining root access. It allows users to patch the boot image and create a flashable ZIP file, making the update process seamless. To use this script, follow the instructions below.
 
