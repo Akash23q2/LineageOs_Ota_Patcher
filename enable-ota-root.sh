@@ -5,7 +5,7 @@ echo -e "\n\e[1;33m#by @Akash23q2\e[0m\n"
 sleep 1.5s
 backup="/sdcard/Rom_Backup/" ; rm -rf $backup 2> /dev/null ; mkdir $backup 2> /dev/null
 echo -e "\n\e[1;35mLooking For LineageRom...\n\e[0m"
-cd ; rom=$(find /data/ -name "*lineage*.zip")
+cd ; rom=$(find /data/lineageos_updates -name "*lineage*.zip")
 path=$(dirname $rom)
 if [ ${#rom} -ne 0 ]; then
     echo -e "\n\e[1;32mFile found at $rom\n\e[0m"
