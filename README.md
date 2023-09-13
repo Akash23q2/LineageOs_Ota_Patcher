@@ -10,6 +10,7 @@ This script, by me @Akash23q2 ;p, is designed to enable OTA (Over-The-Air) updat
    apt upgrade -y
    apt install zip -y
    apt install git -y
+   apt install tsu -y
    ```
 
 ## How to Use
@@ -25,9 +26,8 @@ This script, by me @Akash23q2 ;p, is designed to enable OTA (Over-The-Air) updat
 
 3. Run the script using `su`.
    ```bash
-   su
    chmod +x enable-ota-root.sh
-   ./enable-ota-root.sh
+   sudo bash enable-ota-root.sh
 
    ```
 
